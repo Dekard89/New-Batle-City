@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Default Local Group
+  m_GUID: c1422355ae0aadd4fa010605cb947a88
+  m_SerializeEntries:
+  - m_GUID: 0823c6db8367f8e4598dd4858828da7d
+    m_Address: Assets/Prefabs/Effects/MediumExpllosion.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08a05f294b35d0648bc1c1122aa5b750
+    m_Address: Assets/Prefabs/Effects/WallFragments.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 121f9fc702593d4438bc1da1d14b1734
+    m_Address: Assets/Prefabs/Effects/AfterExplosion.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1648cf345ad9e194ab1b4d5e981f21ce
+    m_Address: Assets/Scripts/Public/Config/ProjectileConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3535bce88735ed644a8a9c3bba17b7b3
+    m_Address: Assets/Prefabs/MediumTank.Blue 1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4026f058ab4234e4badf1ef33bddd547
+    m_Address: Assets/Prefabs/Effects/SmallExplosionFX.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51490f9a57e99c44e87f6b2534a16e56
+    m_Address: Assets/Prefabs/HeavyTank.Red.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f747fda40f5faf468335baa62a7cec6
+    m_Address: Assets/Prefabs/RoundMine.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61f887804b0469349869ede9e77cad38
+    m_Address: Assets/Prefabs/MediumShell.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c93a78b3f5dd864592dc3e7e6988384
+    m_Address: Assets/Prefabs/Effects/Fire.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b14be18cee4aa2248913e703d54581de
+    m_Address: Assets/Prefabs/Effects/Smoke.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc76b6260c2103245991b0586d41e33a
+    m_Address: Assets/Prefabs/SmallTank.Green.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df138a6682c0bca468231f6ea0c97bb0
+    m_Address: Assets/Prefabs/Effects/WallDestroyed.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e280967a21ba35d469dc6ae38c4e3ea9, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d9f45f82411421d45992dfff709e2b97, type: 2}
+    - {fileID: 11400000, guid: b77ecee162a1d9540950ca055afe5051, type: 2}

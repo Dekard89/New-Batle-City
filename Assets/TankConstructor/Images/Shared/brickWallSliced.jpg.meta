@@ -1,0 +1,2330 @@
+fileFormatVersion: 2
+guid: 953d0c2a84ab60841874686454110b11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3282645894551447612
+    second: brickWallSliced_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 310
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brickWallSliced_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3822248c0d4e8d20800000000000000
+      internalID: 3282645894551447612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 147
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8577b976d591db146a1eef5d58da4246
+      internalID: 728132382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 147
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f3caf29de7288479db3470d0f2c80b
+      internalID: 1636947595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 147
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf1026dc9e8a864b8cb4d7c64c7cafc
+      internalID: 842227542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 147
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c4b4e06caba38449168491f335b1d1
+      internalID: 592387557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 147
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3250bb4864e5fcf46877eae01816444e
+      internalID: -1671225458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 147
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccecad74b1c590149a4d2fb6ed4dd000
+      internalID: -361041708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 147
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096ee54be93b2bb48850dc3334fb1784
+      internalID: -520825179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 147
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918fc975a44061e44ba2e264a3069669
+      internalID: -65062479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 147
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fc03c69d45f1d4fba4d957967e94ff
+      internalID: -1510503895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 147
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b0bbf5decb66c44942891fe0d0a5b7
+      internalID: 1502328496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_11
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 147
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71d7ac8825e23d46bd18f3710652273
+      internalID: 1912425080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c42d45160679ee4488d06ee0a311726
+      internalID: 1524746455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_13
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 126
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8eab2ba4bc960469848086b73d8651
+      internalID: -959612124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_14
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 126
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8ba39d7cb69254bbf450050c18886f
+      internalID: 1400852034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_15
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 126
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a22272bb7027db4b8449fd2119d94e8
+      internalID: 1369538115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 126
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf05e6df8baca446b34a2480e9122b4
+      internalID: 865036781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_17
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 126
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ef24372626b75419c9a30048f93e3c
+      internalID: 1755962316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 126
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e009beadd9cb0743a11962a6f3ff4e3
+      internalID: 2108900200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 126
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce441a1d406d46f428a44935ba1125ac
+      internalID: 880747769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_20
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 126
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e64be4baafea547ba29a7f88d9eab8
+      internalID: -1639806794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_21
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 126
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36d9c7652e6897458fee8bfe994e84f
+      internalID: -1685702108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_22
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 126
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c46c8a1b71f1f449bfc33c547b1210
+      internalID: -1858885454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_23
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 126
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57f14dfe95492448a0f823e11838130
+      internalID: 251826603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fe46a9428b1b841976cd1bb72dcb46
+      internalID: 998515237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_25
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 105
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e12bfaa018fcc4db015b98da638198
+      internalID: 935764525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_26
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 105
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9896af8b026124da6c378afa53beb3
+      internalID: -1235087247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_27
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 105
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc74cec614b32e04f97c2a77012e22ac
+      internalID: -962847301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_28
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 105
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc38750f8c3e2143b03d2031059e522
+      internalID: 1836334773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_29
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 105
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab67cfc899ec1cd44b95337b0de095da
+      internalID: 1205156431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_30
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 105
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0525f1eb810e64744ad4f408b793bcf8
+      internalID: -1148543449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_31
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 105
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06b6b9370c23cd468b52b0be4f188dd
+      internalID: -1622745122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_32
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 105
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367ab50145449fa4abed4e39b1c530db
+      internalID: 1700762546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_33
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 105
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d9aaea686cd534ebafe6077d849170
+      internalID: 124623501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_34
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 105
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a567a472bd97ba64a8dca85f198bfad3
+      internalID: -444392286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_35
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 105
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7099c8033cac5b4cb3a3e053b6707fe
+      internalID: -1160442625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4dd19f7904b4841bdc7ea2ae0c8876
+      internalID: -889853933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_37
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 84
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60c5456fe72d184ebddc32efec43aa0
+      internalID: -239920166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_38
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 84
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae4cf68e7fb2764b8c59cc8b9e34074
+      internalID: 1195173728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_39
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 84
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bc58a74071af944960f973bc03cad5
+      internalID: 1547334841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_40
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 84
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fba2611d89d2849a76d61b36cb3e93
+      internalID: -506931782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_41
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 84
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0de0a6e8b8b0f43814c35bbe22d4c7
+      internalID: 635896310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_42
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 84
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dfa7a18474991478bfb513ac144efc
+      internalID: 1852146811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_43
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 84
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3452cd7cd31941e488527e7d5f2a99c4
+      internalID: -1358095833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_44
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 84
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20e7cbabfdfe6f4090c583d5fd88bcf
+      internalID: 697278820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_45
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 84
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcba4ffae0c8bf4d917bb315fc3acde
+      internalID: -1852089872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_46
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 84
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a8e02d0e7e8ea4696bbeb81d1b2096
+      internalID: 523439791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_47
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 84
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f00c5930869c44aa0687c5236b5048
+      internalID: 999605701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c78502818b3cf4cbe204b71eafec85
+      internalID: 643118481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_49
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 63
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b77cecffc741a4cbf9f8f05e83d19e
+      internalID: 1345575545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_50
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 63
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187e43160af3aad43aa37f33dbba37e4
+      internalID: 1550946143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_51
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 63
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465044b3372947b48bbf0be447459270
+      internalID: -8368429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_52
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 63
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f2347acaddda84a9c51293e2077122
+      internalID: 795614169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_53
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 63
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9c907f24656254b99fe2f4b9a6a2d1
+      internalID: 755834625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_54
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 63
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f80f0d537772f4baa340b9297bb801
+      internalID: -957993811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_55
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 63
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b66b679fae76e9479f8b50d7725f255
+      internalID: -1131378301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_56
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 63
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be9f2b426ebe3944bc40656372c2c3d
+      internalID: -1292576816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_57
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 63
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fec0724ea74a8840a167b2498707e34
+      internalID: 659202786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_58
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 63
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb5d157b11d1554ca80c12f8cce61c1
+      internalID: 323705051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_59
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 63
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744b3df4aa9318444bbc0888263ffc85
+      internalID: -598750505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0485d9ebd93cc7b42b24c3067121c7aa
+      internalID: 2145353496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_61
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 42
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fc0673a0bbc244cb65cf1a4326e901
+      internalID: -1711944877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_62
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 42
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258f6044555a4024ba59d3b258f24412
+      internalID: -174618371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_63
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 42
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee71272d1ada1144a71435b444bf8f9
+      internalID: -304856698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_64
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 42
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad81d637dff06aa4797730d775608483
+      internalID: 1761821427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_65
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 42
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5d38d01cc442346ae74949277d66da
+      internalID: -1153072218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_66
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 42
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1c6b971cf31554b8f2c9a3504e7fff
+      internalID: -1578004925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_67
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 42
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432d0c06115fd4343ac196a67ee80f27
+      internalID: -1384925171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_68
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 42
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ebbec210be9504abe8cac940f030e4
+      internalID: 210602533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_69
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 42
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d5e9312b4486248908ac139b809b42
+      internalID: -335612402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_70
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 42
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d670419f2d85fe449990026cc33a68d3
+      internalID: -2032950158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_71
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 42
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2775ada6182143489989beabb078e23
+      internalID: -2125438519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5db4c999f8c904fbbacb35b36f6192
+      internalID: -362658048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_73
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 21
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafffafcf1479f442bdea8e8a7e38a01
+      internalID: 1565718869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_74
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 21
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874775017681d064ea80f857f81bcb3d
+      internalID: -1726164042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_75
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 21
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35a4251a95e3684780edcd60590abe3
+      internalID: 1636851774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_76
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 21
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d6e602e93586340ba46ca5c2849d8b
+      internalID: -940367501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_77
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 21
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227ab74d7c663064da2c977499563747
+      internalID: -677432707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_78
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 21
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d92fc8c49515c448a0bcab14547135
+      internalID: -996289305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_79
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 21
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6dc8183b6d79d469c1e38100bae762
+      internalID: -213586527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_80
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 21
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64a7f1c8634c0d418295a4f286117fe
+      internalID: 1443816997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_81
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 21
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc62bafe183e5264ab0a26fc5a9e335a
+      internalID: -799499515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_82
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 21
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71c7d1b2d48b664092ec4ca58407d4b
+      internalID: -861759588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_83
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 21
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6886a12a64c30448a3e5a21298b956f
+      internalID: 1884671622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41ba200aa5aee049908bec94bd13026
+      internalID: -1175169367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_85
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848647fc5430d2a4b8bbd594183fa833
+      internalID: 1964187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_86
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4c66dd699837145abc56a71d000710
+      internalID: -1611682678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_87
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5549cd1d0eb44394da4e9b1e12e93ade
+      internalID: 1581546801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_88
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c028fca8b72ba4ba8ca3348e446763
+      internalID: 246343223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_89
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec4ebbde8f8a4649ba57597ccc5d4ce
+      internalID: -1669500962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_90
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ead361486c5954cb41b5c7ec634f35
+      internalID: 1462129683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_91
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348c0f73410f20648b3088fb69f00edd
+      internalID: -2144601163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_92
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd519001f7a45474e8d4ac40aaa0fdad
+      internalID: 1292698144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_93
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a354cdb12118140b4917bbd6bec778
+      internalID: 439239096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_94
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7226fa91879ec85429089ef55f50e3d5
+      internalID: -1802618684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brickWallSliced_95
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 25
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df68e6a6c32a4764b94840f914f9d17e
+      internalID: 794202803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 946ddcd63aafcfc409c68db4c20a4724
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":25.0,"y":21.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":1.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":1,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      brickWallSliced_0: 3282645894551447612
+      brickWallSliced_1: 728132382
+      brickWallSliced_10: 1502328496
+      brickWallSliced_11: 1912425080
+      brickWallSliced_12: 1524746455
+      brickWallSliced_13: -959612124
+      brickWallSliced_14: 1400852034
+      brickWallSliced_15: 1369538115
+      brickWallSliced_16: 865036781
+      brickWallSliced_17: 1755962316
+      brickWallSliced_18: 2108900200
+      brickWallSliced_19: 880747769
+      brickWallSliced_2: 1636947595
+      brickWallSliced_20: -1639806794
+      brickWallSliced_21: -1685702108
+      brickWallSliced_22: -1858885454
+      brickWallSliced_23: 251826603
+      brickWallSliced_24: 998515237
+      brickWallSliced_25: 935764525
+      brickWallSliced_26: -1235087247
+      brickWallSliced_27: -962847301
+      brickWallSliced_28: 1836334773
+      brickWallSliced_29: 1205156431
+      brickWallSliced_3: 842227542
+      brickWallSliced_30: -1148543449
+      brickWallSliced_31: -1622745122
+      brickWallSliced_32: 1700762546
+      brickWallSliced_33: 124623501
+      brickWallSliced_34: -444392286
+      brickWallSliced_35: -1160442625
+      brickWallSliced_36: -889853933
+      brickWallSliced_37: -239920166
+      brickWallSliced_38: 1195173728
+      brickWallSliced_39: 1547334841
+      brickWallSliced_4: 592387557
+      brickWallSliced_40: -506931782
+      brickWallSliced_41: 635896310
+      brickWallSliced_42: 1852146811
+      brickWallSliced_43: -1358095833
+      brickWallSliced_44: 697278820
+      brickWallSliced_45: -1852089872
+      brickWallSliced_46: 523439791
+      brickWallSliced_47: 999605701
+      brickWallSliced_48: 643118481
+      brickWallSliced_49: 1345575545
+      brickWallSliced_5: -1671225458
+      brickWallSliced_50: 1550946143
+      brickWallSliced_51: -8368429
+      brickWallSliced_52: 795614169
+      brickWallSliced_53: 755834625
+      brickWallSliced_54: -957993811
+      brickWallSliced_55: -1131378301
+      brickWallSliced_56: -1292576816
+      brickWallSliced_57: 659202786
+      brickWallSliced_58: 323705051
+      brickWallSliced_59: -598750505
+      brickWallSliced_6: -361041708
+      brickWallSliced_60: 2145353496
+      brickWallSliced_61: -1711944877
+      brickWallSliced_62: -174618371
+      brickWallSliced_63: -304856698
+      brickWallSliced_64: 1761821427
+      brickWallSliced_65: -1153072218
+      brickWallSliced_66: -1578004925
+      brickWallSliced_67: -1384925171
+      brickWallSliced_68: 210602533
+      brickWallSliced_69: -335612402
+      brickWallSliced_7: -520825179
+      brickWallSliced_70: -2032950158
+      brickWallSliced_71: -2125438519
+      brickWallSliced_72: -362658048
+      brickWallSliced_73: 1565718869
+      brickWallSliced_74: -1726164042
+      brickWallSliced_75: 1636851774
+      brickWallSliced_76: -940367501
+      brickWallSliced_77: -677432707
+      brickWallSliced_78: -996289305
+      brickWallSliced_79: -213586527
+      brickWallSliced_8: -65062479
+      brickWallSliced_80: 1443816997
+      brickWallSliced_81: -799499515
+      brickWallSliced_82: -861759588
+      brickWallSliced_83: 1884671622
+      brickWallSliced_84: -1175169367
+      brickWallSliced_85: 1964187
+      brickWallSliced_86: -1611682678
+      brickWallSliced_87: 1581546801
+      brickWallSliced_88: 246343223
+      brickWallSliced_89: -1669500962
+      brickWallSliced_9: -1510503895
+      brickWallSliced_90: 1462129683
+      brickWallSliced_91: -2144601163
+      brickWallSliced_92: 1292698144
+      brickWallSliced_93: 439239096
+      brickWallSliced_94: -1802618684
+      brickWallSliced_95: 794202803
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

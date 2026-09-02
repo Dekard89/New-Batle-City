@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - FireSpot
+  - asteroid
+  - ship
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Projectiles
+  - LandingObjects
+  - CameraBounds
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Body
+    uniqueID: 1507721585
+    locked: 0
+  - name: Weapon
+    uniqueID: 32307743
+    locked: 0
+  - name: Projectile
+    uniqueID: 3558259807
+    locked: 0
+  - name: Effect
+    uniqueID: 2026052465
+    locked: 0
+  - name: Bar
+    uniqueID: 3206132561
+    locked: 0
+  - name: UIElement
+    uniqueID: 1615789389
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  - 
