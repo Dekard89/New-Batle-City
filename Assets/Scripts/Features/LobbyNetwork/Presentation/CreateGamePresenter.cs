@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.Features.LobbyNetworking.Service;
+﻿using Assets.Scripts.Features.LobbyNetwork.Service;
+using Assets.Scripts.Features.LobbyNetworking.Service;
 using Assets.Scripts.Public.Data.Model;
 using Assets.Scripts.Public.DataBase;
 using Cysharp.Threading.Tasks;
@@ -19,6 +20,8 @@ namespace Assets.Scripts.Features.LobbyNetwork.Presentation
         private NgoRelayMediator _mediator;
 
         private List<GameMode> _gameModes;
+
+        private UIWindowManager _windowManager;
 
         [Inject]
         public void Construct(GameModeDataBase dataBase, NgoRelayMediator mediator)
@@ -45,6 +48,7 @@ namespace Assets.Scripts.Features.LobbyNetwork.Presentation
         {
 
             await _mediator.HostGameAsync(lobbyName, _gameModes[index]);
+
         }
     }
 }

@@ -7,6 +7,7 @@ using Assets.Scripts.Views;
 using Cysharp.Threading.Tasks;
 using System;
 using System.Threading.Tasks;
+using Unity.Collections;
 using Unity.Netcode;
 using UnityEngine;
 using Zenject;
@@ -20,6 +21,8 @@ public class HealthController : InjectedNetworkBehaviour, IDamagable
 
     [NonSerialized]
     public NetworkVariable<int> TeamId = new();
+
+    private NetworkVariable<FixedString32Bytes> _networkPlayerName = new(new FixedString32Bytes(""));
  
     [SerializeField]
     private HealthStats stats;
@@ -40,6 +43,10 @@ public class HealthController : InjectedNetworkBehaviour, IDamagable
 
     private float _lastHealth;
 
+    public string PlayerName => _networkPlayerName.Value.ToString();
+
+    public event Action<string> OnNameChanged;
+
     protected override void Awake()
     {
         base.Awake();
@@ -58,6 +65,15 @@ public class HealthController : InjectedNetworkBehaviour, IDamagable
         ApplyVisuals();
 
         HealthChenged(0, CurrentHealth.Value);
+
+        _networkPlayerName.OnValueChanged += HandleNetworkNameChanged;
+
+        OnNameChanged?.Invoke(PlayerName);
+    }
+
+    private void HandleNetworkNameChanged(FixedString32Bytes previousValue, FixedString32Bytes newValue)
+    {
+        OnNameChanged?.Invoke(newValue.ToString());
     }
 
     private void HealthChenged(float previousValue, float newValue)
@@ -88,6 +104,8 @@ public class HealthController : InjectedNetworkBehaviour, IDamagable
     public override void OnNetworkDespawn()
     {
         CurrentHealth.OnValueChanged-= HealthChenged;
+
+        _networkPlayerName.OnValueChanged -= HandleNetworkNameChanged;
     }
     private void Die()
     {
@@ -126,6 +144,10 @@ public class HealthController : InjectedNetworkBehaviour, IDamagable
         _healthBar.Setup(IsOwner, check);
 
         _healthBar.UpdateValue(CurrentHealth.Value, stats.MaxHealth);
+    }
+    public void SetPlayerNameServer(string playerName)
+    {
+        if(IsServer) _networkPlayerName.Value = playerName;
     }
    
     private async UniTaskVoid DeathSequence()

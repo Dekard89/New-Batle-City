@@ -38,8 +38,8 @@ public class LobbyUIPresenter : MonoBehaviour
     }
     private void Start()
     {
-        _playerName = _stateManager.LocalPlayerName;
-        _charterId = _selectorService.SelectedCharacter;
+        
+       _charterId = _selectorService.SelectedCharacter;
 
         var allCharacters = _selectorService.GetSelectedAllCharacters();
         view.GenerateCharacterMenu(allCharacters, _charterId);
@@ -104,7 +104,7 @@ public class LobbyUIPresenter : MonoBehaviour
 
         _isReady = false;
 
-        await _actionService.UpdateLocalPlayerDataAsync(_playerName,_charterId,_isReady);
+        await _actionService.UpdateLocalPlayerDataAsync(_charterId,_isReady);
     }
 
     private async void HandleStartPressed()
@@ -115,6 +115,6 @@ public class LobbyUIPresenter : MonoBehaviour
     private async void HandleReadyPressed()
     {
         _isReady = !_isReady;
-        await _actionService.UpdateLocalPlayerDataAsync(_playerName, _charterId, _isReady);
+        await _actionService.UpdateLocalPlayerDataAsync( _charterId, _isReady);
     }
 }

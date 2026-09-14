@@ -10,6 +10,7 @@ using Unity.Netcode;
 using Unity.Services.Lobbies.Models;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.TextCore.Text;
 using Zenject;
 
 public class PlayerSpawner : IInitializable
@@ -37,7 +38,7 @@ public class PlayerSpawner : IInitializable
         _balancer = balancer;
     }
     
-    public async UniTask SpawnPlayer(ulong playerId, string characterId, int teamId)
+    public async UniTask SpawnPlayer(ulong playerId, string characterId, string playerName, int teamId)
     {
         Debug.Log($"[Spawner_Step 1] Начало спавна для игрока {playerId}, ID танка: {characterId}");
 
@@ -79,59 +80,80 @@ public class PlayerSpawner : IInitializable
 
     public void Initialize()
     {
+
         if (!NetworkManager.Singleton.IsServer) return;
 
-        NetworkManager.Singleton.SceneManager.OnLoadEventCompleted += HandleSceneLoadComplete;
+        NetworkManager.Singleton.SceneManager.OnSceneEvent += OnSceneEvent;
+
+        Debug.Log($"[Spawner] запущен");
+
+        if (NetworkManager.Singleton.ConnectedClientsList.Count==1)
+        {
+            Debug.Log("[PlayerSpawner] В сети обнаружен только Хост. Запускаем мгновенный спавн.");
+            ExecuteSpawnProcess().Forget();
+        }
     }
-
-    private void HandleSceneLoadComplete(string sceneName, LoadSceneMode loadSceneMode, List<ulong> clientsCompleted, List<ulong> clientsTimedOut)
+    private async UniTaskVoid ExecuteSpawnProcess()
     {
-        if (!NetworkManager.Singleton.IsServer) return;
+        var currentLobby = _stateManager.CurrentLobby;
 
-        var currentLobby= _stateManager.CurrentLobby;
-
-        if (currentLobby == null)
+        if(currentLobby == null)
         {
             Debug.LogError("[PlayerSpawner] Критическая ошибка: Данные лобби в LobbyStateManager отсутствуют!");
             return;
         }
-        var gameModeName = "Unknown";
-
+        string gameModeName = "Unknown";
         if (currentLobby.Data.TryGetValue(LobbyConnectionService.GameModeKey, out var modeObject))
         {
             gameModeName = modeObject.Value;
         }
         var gameMode = _gameModeDB.GetByName(gameModeName);
-
         var clientList = NetworkManager.Singleton.ConnectedClientsList;
-
         var balancedTeam = _balancer.BalanceTeam(clientList, gameMode);
 
-        foreach (var client in NetworkManager.Singleton.ConnectedClientsList)
+        foreach ( var client in NetworkManager.Singleton.ConnectedClientsList)
         {
-            ulong clientId =client.ClientId;
+            ulong clientId = client.ClientId;
 
-            var characterId = GetGharacterIdFromLobby(clientId, currentLobby);
+            var (characterID, playerName) = GetPlayerDataFromLobby(clientId, currentLobby);
 
-            int assignedTeam = balancedTeam[clientId];
+            var assignedTeam = balancedTeam[clientId];
 
-            SpawnPlayer(clientId, characterId, assignedTeam).Forget();
+            await SpawnPlayer(clientId, characterID, playerName, assignedTeam);
         }
-        
     }
-    private string GetGharacterIdFromLobby(ulong clientId, Lobby lobby)
+
+    private void OnSceneEvent(SceneEvent sceneEvent)
+    {
+        Debug.Log($"[PlayerSpawner] Получено сетевое событие сцены: {sceneEvent.SceneEventType}");
+
+        if (sceneEvent.SceneEventType== SceneEventType.LoadEventCompleted)
+        {
+
+            Debug.Log($"[PlayerSpawner] Условие спавна выполнено по событию {sceneEvent.SceneEventType}. Запускаем ExecuteSpawnProcess.");
+            ExecuteSpawnProcess().Forget();
+        }
+    }
+
+    
+    private (string characterId, string playerName) GetPlayerDataFromLobby(ulong clientId, Lobby lobby)
     {
         int index = (int)clientId;
 
-        if(index < lobby.Players.Count)
+        if(index>=0 &&  index < lobby.Players.Count)
         {
             var player = lobby.Players[index];
-            if(player.Data != null && player.Data.TryGetValue("CharacterName", out var charName))
+            string charId = "Medium";
+            string displayName = "Player";
+            if (player.Data != null )
             {
-                return charName.Value;
-            }
+                if (player.Data.TryGetValue("CharacterId", out var charData)) charId = charData.Value;
+                if (player.Data.TryGetValue("DisplayName", out var nameData)) displayName = nameData.Value;
+            } 
+
+            return (charId, displayName);
         }
         Debug.LogWarning($"[PlayerSpawner] Не удалось найти данные лобби для clientId {clientId}. Применен дефолтный персонаж.");
-        return "Medium";
+        return ("Medium", $"Player_{clientId}");
     }
 }

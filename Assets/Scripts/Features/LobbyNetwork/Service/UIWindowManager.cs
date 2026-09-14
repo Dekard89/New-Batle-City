@@ -59,7 +59,7 @@ namespace Assets.Scripts.Features.LobbyNetwork.Service
         public void OpenOptionsWindow()
         {
             _optionsWindow.Show();
-            _createLobbyWindow.Hide();
+            _connectionWindow.Hide();
         }
       
 

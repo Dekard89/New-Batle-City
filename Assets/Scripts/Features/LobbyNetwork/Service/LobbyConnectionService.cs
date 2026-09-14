@@ -1,9 +1,11 @@
 ﻿using Assets.Scripts.Features.LobbyNetwork.Data.Signals;
 using Assets.Scripts.Public.Data.Model;
+using Assets.Scripts.Public.Data.Signals;
 using Cysharp.Threading.Tasks;
 using System;
 using System.Collections.Generic;
 using System.Threading;
+using Unity.Services.Authentication;
 using Unity.Services.Lobbies;
 using Unity.Services.Lobbies.Models;
 using UnityEngine;
@@ -41,6 +43,7 @@ namespace Assets.Scripts.Features.LobbyNetwork.Service
                 var lobbyOptions = new CreateLobbyOptions
                 {
                     IsPrivate = false,
+                    Player= GetLocalPlayerForLobby(),
                     Data = new Dictionary<string, DataObject>
                     {
                         {RelayKey, new( DataObject.VisibilityOptions.Member, relayJoinCode) },
@@ -56,6 +59,8 @@ namespace Assets.Scripts.Features.LobbyNetwork.Service
 
                 StartHeartbeatLoop(lobby.Id);
 
+                _signalBus.Fire<LobbyJoinedSignal>();
+
                 return lobby.LobbyCode;
             }
 
@@ -70,7 +75,12 @@ namespace Assets.Scripts.Features.LobbyNetwork.Service
         {
             try
             {
-                var lobby =  await LobbyService.Instance.JoinLobbyByCodeAsync(lobbyCode);
+                var options = new JoinLobbyByCodeOptions
+                {
+                    Player = GetLocalPlayerForLobby()
+                };
+
+                var lobby =  await LobbyService.Instance.JoinLobbyByCodeAsync(lobbyCode, options);
 
                 _stateManager.SetLobby(lobby);
                 _lobbyMonitor.SubscribeToCurrentLobby();
@@ -88,7 +98,12 @@ namespace Assets.Scripts.Features.LobbyNetwork.Service
         {
             try
             {
-                var lobby = await LobbyService.Instance.JoinLobbyByIdAsync(id);
+                var options = new JoinLobbyByIdOptions
+                {
+                    Player = GetLocalPlayerForLobby()
+                };
+
+                var lobby = await LobbyService.Instance.JoinLobbyByIdAsync(id, options);
 
                 _stateManager.SetLobby(lobby);
                 _lobbyMonitor.SubscribeToCurrentLobby();
@@ -200,6 +215,20 @@ namespace Assets.Scripts.Features.LobbyNetwork.Service
             _isAuthComlete = true;
 
             QueryLobbiesListAsync().Forget();
+        }
+        private Player GetLocalPlayerForLobby()
+        {
+            return new Player
+            {
+                
+                Data = new Dictionary<string, PlayerDataObject>
+                {
+                    
+                    { "DisplayName", new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member, _stateManager.LocalPlayerName) },
+                    { "CharacterId", new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member, "Medium") },
+                    { "IsReady", new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member, "false") }
+                }
+            };
         }
     }
 }

@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using Unity.Services.Authentication;
+using Unity.Services.Core;
 using UnityEngine;
 using Zenject;
 
@@ -32,17 +34,41 @@ namespace Assets.Scripts.Features.LobbyNetwork.Presentation
             bus.Subscribe<ServiceInitializeSignal>(OnServiceReady);
             _view.ReturnEvent += OnReturnClicked;
             _view.InputEvent += OnInputNameEntered;
+
+            UpdatePlaceholderUI();
  
         }
 
         private void OnServiceReady()
+        {
+            UpdatePlaceholderUI();
+        }
+        private void UpdatePlaceholderUI()
         {
             _view.SetPlaceholder(stateManager.LocalPlayerName);
         }
 
         private async void OnInputNameEntered(string name)
         {
-            await actionService.UpdateLocalPlayerDataAsync(name, "Medium", false);
+            if (string.IsNullOrWhiteSpace(name)) return;
+
+            stateManager.SavePlayerNameToPrefs(name);
+
+            UpdatePlaceholderUI();
+
+            try
+            {
+                if(UnityServices.State == ServicesInitializationState.Initialized &&
+                    AuthenticationService.Instance.IsSignedIn)
+                {
+                    await AuthenticationService.Instance.UpdatePlayerNameAsync(name);
+                    Debug.Log($"[OptionsPresenter] Имя синхронизировано с профилем UGS.");
+                }
+            }
+            catch(Exception ex)
+            {
+                Debug.LogWarning($"[OptionsPresenter] Ошибка синхронизации с сервером: {ex.Message}");
+            }
         }
 
         private void OnReturnClicked()

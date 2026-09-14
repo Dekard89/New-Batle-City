@@ -41,7 +41,8 @@ public class GameInstaller : MonoInstaller
 
         
         Container.BindInterfacesAndSelfTo<PlayerSpawner>()
-            .AsSingle();
+            .AsSingle()
+            .NonLazy();
 
    
 

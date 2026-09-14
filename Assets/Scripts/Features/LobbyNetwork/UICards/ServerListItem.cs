@@ -29,6 +29,8 @@ public class ServerListItem : MonoBehaviour,IPointerClickHandler
         _onJoinClickedCallback = onJoinClickedCallback;
         _onSelectedCallback = onSelectedCallback;
         playerCountText.text = RatioCurrentToMax(_model);
+        serverNameText.text = model.ServerName;
+        gameModeText.text =model.GamaModeName;
         
 
     }

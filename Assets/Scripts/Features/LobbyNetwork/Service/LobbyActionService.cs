@@ -16,7 +16,7 @@ namespace Assets.Scripts.Features.LobbyNetwork.Service
         {
             _stateManager = lobbyStateManager;
         }  
-        public async UniTask UpdateLocalPlayerDataAsync(string displayName,string characterId, bool IsReady)
+        public async UniTask UpdateLocalPlayerDataAsync(string characterId, bool IsReady)
         {
             if(_stateManager.CurrentLobby==null) return;
 
@@ -26,7 +26,7 @@ namespace Assets.Scripts.Features.LobbyNetwork.Service
                 {
                     Data = new()
                     {
-                        {"DisplayName",new (PlayerDataObject.VisibilityOptions.Member,displayName) },
+                        {"DisplayName",new (PlayerDataObject.VisibilityOptions.Member, _stateManager.LocalPlayerName) },
                         {"CharacterId", new (PlayerDataObject.VisibilityOptions.Member,characterId) },
                         {"IsReady", new(PlayerDataObject.VisibilityOptions.Member, IsReady.ToString().ToLower() )}
                     }
